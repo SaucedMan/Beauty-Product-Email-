@@ -1,0 +1,19 @@
+        <mj-raw>
+        <!--Hero Section-->
+        </mj-raw>
+        <mj-section background-color="#FFD8CC" padding-bottom="0" padding-top="20px">
+            <mj-column width="250px">
+                <mj-text padding-right="0px" padding-left="20px">
+                    <h2 style="margin-bottom: 0px; font-size: 29px;"><a style="color: #f2994a;">Beauty</a> Products</h2>
+                    <br>
+                    <h2 style="margin-top: 0px; font-size: 29px;">For Your Hair</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </mj-text>
+                <mj-button align="left" href="https://www.example.com/" text-transform="uppercase" background-color="#f2994a" 
+                color="#FFFFFF" font-size="18px" font-weight="500">Shop Now</mj-button>
+            </mj-column>
+            <mj-column width="350px">
+                <mj-image href="https://www.example.com/" padding-bottom="0px" padding-left="0px" padding-right="10px" href="https://www.example.com/" src="https://i.postimg.cc/Y0tNdJP8/Oil-Photo.png"  alt="Yellow oil bottles on display image" />
+            </mj-column>
+        </mj-section>

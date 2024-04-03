@@ -1,0 +1,38 @@
+        <mj-raw>
+        <!--Included in offer seciton-->
+        </mj-raw>
+        <mj-section background-color="#FFD8CC">
+            <mj-column>
+                <mj-text align="center">
+                    <h2 style="font-size: 30px;">Included in the offer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam.</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFD8CC">
+            <mj-column>
+                <mj-image padding="0px" href="https://www.example.com/" src="https://i.postimg.cc/Gh8SzmQp/Tincture-masks.png" alt="mask tinctures" />
+                    <mj-text align="center" padding="5px 10px 10px 10px">
+                        <p style="font-size: 18px; font-weight: 700;">2x Cream for Hair</p>
+                        <p style="font-size: 14px; font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p style="color: #f2994a">Shop Now</p>
+                    </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image padding="0px" href="https://www.example.com/" src="https://i.postimg.cc/6pqcJxpm/Hairspray-with-stones.png" alt="Hairspray with stones" />
+                    <mj-text align="center" padding="5px 10px 10px 10px">
+                        <p style="font-size: 18px; font-weight: 700;">2x Cream for Hair</p>
+                        <p style="font-size: 14px; font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p style="color: #f2994a">Shop Now</p>
+                    </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image padding="0px" href="https://www.example.com/" src="https://i.postimg.cc/X7R1P6Hk/Serum-C.png" alt="bottle with amber liquid" />
+                    <mj-text align="center" padding="5px 10px 10px 10px">
+                        <p style="font-size: 18px; font-weight: 700;">2x Cream for Hair</p>
+                        <p style="font-size: 14px; font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p style="color: #f2994a">Shop Now</p>
+                    </mj-text>
+            </mj-column>
+        </mj-section>

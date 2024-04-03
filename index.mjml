@@ -1,0 +1,119 @@
+<mjml>
+    <mj-head>
+        <mj-style inline="inline">
+        </mj-style>
+        <mj-style>
+        body{
+            font-family:"Lato", sans-serif;
+            font-size: 14px;
+        }
+        @media (max-width:480px) {
+            .top-text div {
+                text-align: center !important;
+            }
+        }
+        </mj-style>
+        <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" />
+    </mj-head>
+    <mj-body background-color="#FFEEDB">
+
+        <mj-include path="./components/top-section.mjml" />
+
+        <mj-include path="./components/Hero.mjml" />
+
+        <mj-include path="./components/spacer.mjml" />
+
+        <mj-raw>
+        <!--40% Section-->
+        </mj-raw>
+        <mj-section background-color="#FFD8CC">
+            <mj-column>
+                <mj-text align="center">
+                    <h2 style="font-siez: 30px;">Detailed information about the event</h2>
+                    <h2 style="font-size: 42px; color: #f2994a">Up to 40%</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.</p>
+                </mj-text>
+                <mj-button align="center" href="https://www.example.com/" text-transform="uppercase" background-color="#f2994a" 
+                color="#FFFFFF" font-size="18px" font-weight="500">7 March - 13 March</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./components/spacer.mjml" />
+
+        
+        <mj-include path="./components/includedinoffer.mjml" />
+
+
+        <mj-include path="./components/spacer.mjml" />
+
+        <mj-raw>
+        <!--Testimonials Section-->
+        </mj-raw>
+        <mj-section background-color="#FFD8CC">
+            <mj-column>
+                <mj-text align="center">
+                    <h2 style="font-size: 30px;">Testimonials</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam.</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFD8CC">
+            <mj-column width="400px" padding="0px">
+                <mj-text align="left">
+                    <h2 style="font-size: 22px; ">"Lorem Ipsum sit dolor amet,
+                    consectetur adipiscing elit</h2>
+                    <p style="font-weight: 300; margin-bottom: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam.</p>
+                    <p style="font-weight: 300;">Jessy Blake</p>
+                </mj-text>
+            </mj-column padding="0px">
+            <mj-column width="200px">
+                <mj-image width="150px" href="https://www.example.com/" src="https://i.postimg.cc/htYrKZJP/Female-Review-img.png"  alt="Female in overalls" />
+            </mj-column>
+            <mj-column width="200px">
+                <mj-image width="128px" href="https://www.example.com/" src="https://i.postimg.cc/wvXcc6w7/Male-Review-img.png"  alt="Male in white t-shirt" />
+            </mj-column>
+            <mj-column width="400px" padding="0px">
+                <mj-text align="left">
+                    <h2 style="font-size: 22px; ">"Lorem Ipsum sit dolor amet,
+                    consectetur adipiscing elit</h2>
+                    <p style="font-weight: 300; margin-bottom: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam.</p>
+                    <p style="font-weight: 300;">John Adams</p>
+                </mj-text>
+            </mj-column padding="0px">
+        </mj-section>
+
+        <mj-include path="./components/spacer.mjml" />
+
+        <mj-raw>
+        <!--Footer-->
+        </mj-raw>
+        <mj-section background-color="#FFD8CC">
+            <mj-column>
+                <mj-text align="left">
+                    <h2 style="font-size: 18px; font-weight: 600;">Social Media</h2>
+                    <p style="font-weight: 300;">Stay up-to-date with current activities and future events by following us on your favorite social media channels</p>
+                </mj-text>
+                <mj-social align="left" icon-size="30px" mode="horizontal">
+                    <mj-social-element href="https://www.facebook.com/" src=" https://i.postimg.cc/MKd5FpqB/facebook-icon.png" alt="faceboook icon"></mj-social-element>
+                    <mj-social-element href="https://twitter.com/" src="https://i.postimg.cc/3N4x2xKG/twitter-icon.png" alt="twitter icon"></mj-social-element>
+                    <mj-social-element href="https://www.instagram.com/" src="https://i.postimg.cc/NMqkHy73/pinterest-icon.png" alt="pinterest icon"></mj-social-element>
+                </mj-social>
+            </mj-column>
+            <mj-column>
+                <mj-text align="left">
+                    <h2 style="font-size: 18px; font-weight: 600;">Where to find us</h2>
+                    <p style="font-weight: 300; margin: 0px;">Street Address:  123 Main St.</p>
+                    <p style="font-weight: 300; margin: 0px;">City & State: Los Angeles, CA</p>
+                    <p style="font-weight: 300; margin: 0px;">Zip code: 90027</p>
+                    <p style="font-weight: 300; margin-top: 40px;">Changed your mind? <a href="https://www.example.com/" style="text-decoration: none; color: #333;">Unsubscribe</a></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>
